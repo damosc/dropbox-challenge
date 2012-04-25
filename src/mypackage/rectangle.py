@@ -94,48 +94,28 @@ class Rectangles(object):
         '''
         Returns maximum width of a rectangle.
         '''            
-        #return max(self.list, key=lambda rectangle: rectangle.width).width
         return self._max_width
     
     def get_max_height(self):
         '''
         Returns maximum width of a rectangle.
         '''
-        #return max(self.list, key=lambda rectangle: rectangle.height).height
         return self._max_height
     
     def get_heights_sum(self):
         '''
         Returns sum of heights of all rectangles
         '''
-        #=======================================================================
-        # sumOfHeights = 0
-        # for rectangle in self.list:
-        #    sumOfHeights += rectangle.height
-        # return sumOfHeights
-        #=======================================================================
         return self._heights_sum
     
     def get_widths_sum(self):
         '''
         Returns sum of widths of all rectangles
         '''
-        #=======================================================================
-        # sumOfWidths = 0
-        # for rectangle in self.list:
-        #    sumOfWidths += rectangle.width
-        # return sumOfWidths
-        #=======================================================================
         return self._widths_sum  
           
     def get_areas_sum(self):
         '''
         Returns sum of areas of all rectangles.
         '''
-        #=======================================================================
-        # sumOfAreas = 0
-        # for rectangle in self.list:
-        #    sumOfAreas += rectangle.height * rectangle.width
-        # return sumOfAreas
-        #=======================================================================
         return self._areas_sum
