@@ -1,8 +1,15 @@
 This is the solution of a challenge thrown by the Dropbox. 
 Program is written using Python 2.7 and Aptana Studio 3.
+Here is the task:
+www.dropbox.com/jobs/challenges
 
 =========================================================================
-REQUIREMENTS
+RUN
+
+To run this project simply run solver.py by typing "python solver.py" in your console, and follow instructions presented on the screen.
+
+=========================================================================
+TASK DESCRIPTION
 
 When you're working with petabytes of data, you have to store files wherever they can fit. 
 All of us here at Dropbox are always searching for more ways to efficiently pack data into smaller and more manageable chunks.
@@ -11,7 +18,7 @@ The fun begins when you bend the rules a little bit and visualize it in two dime
 You'll be given a list of rectangular "files" that you'll need to pack into as small a "Dropbox" as possible.
 The dimensions of each file will be specified by a tuple (width, height), both of which will be integers.
 The output of your function should be the area of the smallest rectangular Dropbox that can enclose all of them without any overlap.
-Files can be rotated 90° if it helps. Bonus points if you can draw pictures of the winning configurations along the way.
+Files can be rotated 90ï¿½ if it helps. Bonus points if you can draw pictures of the winning configurations along the way.
 While drawing pictures, any files sharing dimensions should be considered identical/interchangeable.
 
 Input
