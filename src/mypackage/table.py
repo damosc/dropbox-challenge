@@ -43,9 +43,6 @@ class Table(object):
             min_width, min_height = self.get_min_dimensions()
             #print best solution
             stdout.write(str(min_width * min_height) + "\n")
-            stderr.write("Sum of areas: " \
-                         + str(self.rectangles.get_areas_sum()) + \
-                         "\n(" + str(min_width) + "," + str(min_height) + ")\n")
                          
     def put(self, rectangle):
         '''
